@@ -865,7 +865,7 @@ function pickCustom(){
   input.oninput = () => { selectedAmount = parseInt(input.value) || 0; };
 }
 
-const RAZORPAY_KEY_ID = 'rzp_test_YOUR_KEY_ID_HERE'; // TODO: apni Razorpay TEST Key ID yahan daalein (dashboard.razorpay.com -> Settings -> API Keys)
+const RAZORPAY_KEY_ID = 'rzp_test_Thk7Qx6zav0YDF'; // TODO: apni Razorpay TEST Key ID yahan daalein (dashboard.razorpay.com -> Settings -> API Keys)
 
 async function handleRazorpayPayment(){
   if(!selectedAmount || selectedAmount <= 0){ showToast('Sahi amount daalein'); return; }
